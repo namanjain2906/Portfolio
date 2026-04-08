@@ -9,11 +9,7 @@ const About = () => {
 
   return (
     <div className="min-h-dvh w-full flex items-center justify-center p-0 ">
-      <AppFramedContent
-        safeArea={{ top: 3, right: 4, bottom: 3, left: 4 }}
-        heightClass="h-[95dvh] max-h-[900px]"
-        className="max-w-[430px]"
-      >
+      <div className='background-[url("Frame.png")]'>
           <div className="absolute p-2 pt-4  max-md:p-5 inset-0 overflow-y-auto scrollbar-hide">
           {/* Header */}
           <div className="flex items-center justify-between p-4 pb-2">
@@ -69,7 +65,7 @@ const About = () => {
             </div>
           </div>
         </div>
-      </AppFramedContent>
+      </div>
     </div>
   )
 }

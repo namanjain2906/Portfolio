@@ -2,7 +2,7 @@ import React from 'react'
 import AppFramedContent from '../components/AppFramedContent'
 import { useNavigate } from 'react-router-dom'
 import { FaArrowLeft, FaDownload, FaEye } from 'react-icons/fa'
-import ResumePDF from '../assets/Naman_Jain_Resume_1.pdf'
+import ResumePDF from '../assets/Naman_Jain_Resume.pdf'
 
 const Resume = () => {
   const navigate = useNavigate()
